@@ -3,9 +3,9 @@ inline:
   metadata:
     name: test
   components:
-    - name: vista-ide
+    - name: test
       container:
         image: "512332547043.dkr.ecr.eu-west-1.amazonaws.com/test:latest"
         endpoints:
-          - name: vista
+          - name: test
             targetPort: 80
